@@ -227,4 +227,8 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,macos
 
+# Claude Code
+.claude/settings.local.json
+
+# Temp
 temp/
