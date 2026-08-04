@@ -33,3 +33,4 @@
 - [모듈(module)](Module.md) — import, from import, \_\_name\_\_, sys.path, PYTHONPATH
 - [패키지(package)](Package.md) — 패키지 구조, \_\_init\_\_.py, 패키지 초기화, \_\_all\_\_, 상대 경로 import, pyproject.toml
 - [예외 처리(exception)](HandleException.md) — try-except/finally/else, 오류 회피, raise, 예외 만들기
+- [내장 함수(built-in function)](BuiltInFunction.md) — abs, all/any, enumerate, filter, map, range, sorted, zip 등
