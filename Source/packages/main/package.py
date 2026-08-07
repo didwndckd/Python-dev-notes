@@ -122,5 +122,20 @@
 # ..: 부모 디렉터리
 # .: 현재 디렉터리
 
-import ..game.sound.echo
-print(hasattr(game, '__path__'))
+# 주의: 상대 경로 import는 이 파일에서 직접 실행할 수 없다.
+# from ..game.sound import echo
+# ImportError: attempted relative import with no known parent package
+# 파일을 python3 package.py처럼 직접 실행하면 그 파일은 __main__이 되고 __package__가 비어 있어서
+# ..이 가리킬 부모 패키지 자체가 존재하지 않는다. 파일의 위치와는 무관한 문제다.
+# 상대 경로 import는 "패키지의 일부로 import될 때"만 동작한다.
+# 즉 위 예시처럼 game/graphic/render.py 안에서 from ..sound.echo import echo_test로 쓰고,
+# 그 render.py를 직접 실행하는 대신 여기서 game.graphic.render를 import해서 사용해야 한다.
+
+# 참고: 패키지인지 확인하기
+# 패키지(디렉터리)로 만들어진 모듈에는 __path__ 속성이 있다.
+# >>> import game
+# >>> hasattr(game, '__path__')
+# True
+# >>> import game.sound.echo
+# >>> hasattr(game.sound.echo, '__path__')
+# False -> echo는 모듈(파일)이라 __path__가 없다
