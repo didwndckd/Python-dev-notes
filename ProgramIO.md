@@ -1,6 +1,6 @@
 # 프로그램의 입출력(sys.argv)
 
-> 예제 코드: [Source/program_IO.py](Source/program_IO.py)
+> 예제 코드: [Source/input_output/program_IO.py](Source/input_output/program_IO.py)
 
 - [명령어와 인수](#명령어와-인수)
 - [sys 모듈로 인수 전달받기](#sys-모듈로-인수-전달받기)
@@ -31,8 +31,8 @@ import sys
 args = sys.argv[:]   # 전체(프로그램 이름 포함)
 for i in args:
     print(i)
-# 실행: python3 Python/Source/program_IO.py aaa bbb ccc
-# Python/Source/program_IO.py   ← argv[0]: 해당 프로그램
+# 실행: python3 Python/Source/input_output/program_IO.py aaa bbb ccc
+# Python/Source/input_output/program_IO.py   ← argv[0]: 해당 프로그램
 # aaa                           ← argv[1]부터 전달 인수
 # bbb
 # ccc
@@ -52,7 +52,7 @@ import sys
 args = sys.argv[1:]   # 인수부터
 for i in args:
     print(i.upper(), end=' ')
-# 실행: python3 Python/Source/program_IO.py life is too short, you need python
+# 실행: python3 Python/Source/input_output/program_IO.py life is too short, you need python
 # LIFE IS TOO SHORT, YOU NEED PYTHON
 ```
 

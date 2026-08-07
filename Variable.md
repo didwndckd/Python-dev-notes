@@ -1,6 +1,6 @@
 # 변수(Variable)
 
-> 예제 코드: [Source/variable.py](Source/variable.py)
+> 예제 코드: [Source/datatype/variable.py](Source/datatype/variable.py)
 
 - [변수 만들기](#변수-만들기)
 - [변수 명명 규칙](#변수-명명-규칙)

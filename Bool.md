@@ -1,6 +1,6 @@
 # 불(Bool)
 
-> 예제 코드: [Source/bool.py](Source/bool.py)
+> 예제 코드: [Source/datatype/bool.py](Source/datatype/bool.py)
 
 - [불이란](#불이란)
 - [자료형의 참과 거짓](#자료형의-참과-거짓)

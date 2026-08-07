@@ -1,6 +1,6 @@
 # 내장 함수(built-in function)
 
-> 예제 코드: [Source/built_in_function.py](Source/built_in_function.py)
+> 예제 코드: [Source/advanced/built_in_function.py](Source/advanced/built_in_function.py)
 
 - [내장 함수란](#내장-함수란)
 - [abs](#abs)

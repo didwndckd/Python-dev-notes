@@ -1,6 +1,6 @@
 # 반복문(for)
 
-> 예제 코드: [Source/for.py](Source/for.py)
+> 예제 코드: [Source/control/for.py](Source/control/for.py)
 
 - [기본 구조](#기본-구조)
 - [튜플로 받기(언패킹)](#튜플로-받기언패킹)

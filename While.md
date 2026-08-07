@@ -1,6 +1,6 @@
 # 반복문(while)
 
-> 예제 코드: [Source/while.py](Source/while.py)
+> 예제 코드: [Source/control/while.py](Source/control/while.py)
 
 - [기본 구조](#기본-구조)
 - [break — 강제로 빠져나가기](#break--강제로-빠져나가기)

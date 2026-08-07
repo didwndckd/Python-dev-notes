@@ -1,6 +1,6 @@
 # 집합(Set)
 
-> 예제 코드: [Source/set.py](Source/set.py)
+> 예제 코드: [Source/datatype/set.py](Source/datatype/set.py)
 
 - [집합 만들기](#집합-만들기)
 - [특징](#특징)

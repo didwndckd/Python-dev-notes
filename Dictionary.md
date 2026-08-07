@@ -1,6 +1,6 @@
 # 딕셔너리(Dictionary)
 
-> 예제 코드: [Source/dictionary.py](Source/dictionary.py)
+> 예제 코드: [Source/datatype/dictionary.py](Source/datatype/dictionary.py)
 
 - [딕셔너리 만들기](#딕셔너리-만들기)
 - [쌍 추가와 삭제](#쌍-추가와-삭제)

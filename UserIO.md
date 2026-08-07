@@ -1,6 +1,6 @@
 # 사용자 입출력(input / print)
 
-> 예제 코드: [Source/user-IO.py](Source/user-IO.py)
+> 예제 코드: [Source/input_output/user_IO.py](Source/input_output/user_IO.py)
 
 - [input으로 입력받기](#input으로-입력받기)
 - [입력값을 숫자로 변환하기](#입력값을-숫자로-변환하기)

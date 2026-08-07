@@ -1,6 +1,6 @@
 # 예외 처리(exception)
 
-> 예제 코드: [Source/handle_exception.py](Source/handle_exception.py)
+> 예제 코드: [Source/advanced/handle_exception.py](Source/advanced/handle_exception.py)
 
 - [오류는 언제 발생하는가](#오류는-언제-발생하는가)
 - [try-except 문](#try-except-문)

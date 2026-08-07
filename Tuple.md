@@ -1,6 +1,6 @@
 # 튜플(Tuple)
 
-> 예제 코드: [Source/tuple.py](Source/tuple.py)
+> 예제 코드: [Source/datatype/tuple.py](Source/datatype/tuple.py)
 
 - [튜플 만들기](#튜플-만들기)
 - [리스트와의 차이](#리스트와의-차이)

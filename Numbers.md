@@ -1,6 +1,6 @@
 # 숫자형(Number)
 
-> 예제 코드: [Source/numbers.py](Source/numbers.py)
+> 예제 코드: [Source/datatype/numbers.py](Source/datatype/numbers.py)
 
 - [정수형(int)](#정수형int)
 - [실수형(float)](#실수형float)

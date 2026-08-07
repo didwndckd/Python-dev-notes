@@ -1,6 +1,6 @@
 # 클래스(class)
 
-> 예제 코드: [Source/class.py](Source/class.py)
+> 예제 코드: [Source/advanced/class.py](Source/advanced/class.py)
 
 - [클래스는 왜 필요한가](#클래스는-왜-필요한가)
 - [기본 구조](#기본-구조)

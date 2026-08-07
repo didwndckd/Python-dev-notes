@@ -1,6 +1,6 @@
 # 리스트(List)
 
-> 예제 코드: [Source/list.py](Source/list.py)
+> 예제 코드: [Source/datatype/list.py](Source/datatype/list.py)
 
 - [리스트 만들기](#리스트-만들기)
 - [인덱싱](#인덱싱)

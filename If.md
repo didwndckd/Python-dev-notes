@@ -1,6 +1,6 @@
 # 조건문(if)
 
-> 예제 코드: [Source/if.py](Source/if.py)
+> 예제 코드: [Source/control/if.py](Source/control/if.py)
 
 - [기본 구조](#기본-구조)
 - [들여쓰기](#들여쓰기)

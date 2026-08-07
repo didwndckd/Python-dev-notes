@@ -1,6 +1,6 @@
 # 파일 읽고 쓰기(file I/O)
 
-> 예제 코드: [Source/file_IO.py](Source/file_IO.py)
+> 예제 코드: [Source/input_output/file_IO.py](Source/input_output/file_IO.py)
 
 - [파일 열기와 파일 열기 모드](#파일-열기와-파일-열기-모드)
 - [파일에 내용 쓰기 (w)](#파일에-내용-쓰기-w)

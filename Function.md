@@ -1,6 +1,6 @@
 # 함수(function)
 
-> 예제 코드: [Source/function.py](Source/function.py)
+> 예제 코드: [Source/input_output/function.py](Source/input_output/function.py)
 
 - [기본 구조](#기본-구조)
 - [매개변수와 인수](#매개변수와-인수)

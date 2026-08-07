@@ -1,6 +1,6 @@
 # 문자열(String)
 
-> 예제 코드: [Source/string.py](Source/string.py)
+> 예제 코드: [Source/datatype/string.py](Source/datatype/string.py)
 
 - [문자열 만들기](#문자열-만들기)
 - [따옴표 포함하기](#따옴표-포함하기)
