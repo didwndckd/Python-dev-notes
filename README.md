@@ -35,3 +35,11 @@
 - [예외 처리(exception)](HandleException.md) — try-except/finally/else, 오류 회피, raise, 예외 만들기
 - [내장 함수(built-in function)](BuiltInFunction.md) — abs, all/any, enumerate, filter, map, range, sorted, zip 등
 - [표준 라이브러리(standard library)](StandardLibrary.md) — datetime, time, math, random, itertools, os, threading, json, urllib 등
+
+## 개발 환경과 도구
+
+점프 투 파이썬에는 없는 내용으로, 파이썬 공식 문서와 각 도구의 공식 문서를 참고해 정리했다.
+
+- [가상 환경(venv)](VirtualEnvironment.md) — venv 생성, 활성화, PATH 원리, requirements.txt, PEP 668, VS Code 연동
+- [uv](Uv.md) — pip 인터페이스, pyproject.toml, uv.lock, 스크립트 인라인 의존성, 파이썬 버전 관리
+- [pyproject.toml](PyprojectToml.md) — build-system, project 정보, 의존성 문법, 개발 의존성, scripts, tool 설정

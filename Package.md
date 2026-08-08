@@ -282,7 +282,7 @@ myproject/
   build-backend = "hatchling.build"
   ```
 
-  > 예전에는 `setup.py`에 파이썬 코드로 적었지만 지금은 `pyproject.toml`이 표준이다. `ruff`, `mypy`, `pytest` 같은 도구 설정도 이 파일에 함께 모아 둔다.
+  > 예전에는 `setup.py`에 파이썬 코드로 적었지만 지금은 `pyproject.toml`이 표준이다. `ruff`, `mypy`, `pytest` 같은 도구 설정도 이 파일에 함께 모아 둔다. 각 항목의 의미와 작성법은 [pyproject.toml](PyprojectToml.md)에 정리해 두었다.
 
 - **`__init__.py`는 공개 API를 만드는 용도로 쓴다** — 하위 모듈을 미리 import해 두면 사용자가 내부 구조를 몰라도 된다. 위에서 본 "패키지 내 모듈을 미리 import"가 실무에서 가장 많이 쓰이는 형태다.
 
