@@ -35,6 +35,7 @@
 - [예외 처리(exception)](HandleException.md) — try-except/finally/else, 오류 회피, raise, 예외 만들기
 - [내장 함수(built-in function)](BuiltInFunction.md) — abs, all/any, enumerate, filter, map, range, sorted, zip 등
 - [표준 라이브러리(standard library)](StandardLibrary.md) — datetime, time, math, random, itertools, os, threading, json, urllib 등
+- [외부 라이브러리(external library)](ExternalLibrary.md) — PyPI, pip, Faker, fractions.Fraction, sympy
 
 ## 개발 환경과 도구
 
