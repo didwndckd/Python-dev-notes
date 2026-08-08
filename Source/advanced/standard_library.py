@@ -1,6 +1,7 @@
 # standard_library.py
 
 # datetime.date
+from builtins import print
 import datetime
 # datetime.date 객체 만들기
 day1 = datetime.date(2026, 8, 5)
