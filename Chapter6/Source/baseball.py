@@ -89,13 +89,28 @@ class BaseballGame_V3(BaseballGame_V2):
     # 정확히 세자리 숫자가 들어왔는지 체크, 재입력 유도 버전
     def _get_user_input(self, guide="3자리 숫자를 입력 하세요:"):
         question = input(guide)
+
+        # 3자리 이상 문자열이고 숫자로만 이루어져있는지 확인
         if len(question) < 3 or not question.isdigit():
             return self._get_user_input("유효하지 않습니다. 3자리 숫자를 다시 입력해주세요:")
         # numbers = list(map(lambda char: int(char), question))
         numbers = list(map(int, question)) # 클로져 없이 숫자 변환
+
+        if 0 in numbers:
+            return self._get_user_input("0은 포함될 수 없습니다. 3자리 숫자를 다시 입력해주세요:")
+
         return numbers
 
 class BaseballGame_V4(BaseballGame_V3):
+    # v2 + 숫자 중복 여부까지 확인
+    def _get_user_input(self, guide="3자리 숫자를 입력 하세요:"):
+        numbers = super()._get_user_input(guide)
+        if len(numbers) == len(set(numbers)):
+            return numbers
+        else:
+            return self._get_user_input("중복된 숫자는 입력할 수 없습니다. 3자리 숫자를 다시 입력해주세요:")
+
+    # 3스트라이크가 될때까지 무한 루프
     def start(self):
         answer = self._get_answer()
         try_count = 0
