@@ -42,6 +42,7 @@
 - [구구단 예제](Chapter6/Source/gugu.py)
 - [3과 5의 배수의 합](Chapter6/Source/sum_of_multiples.py)
   - [Project Euler에서 문제 풀어보기](https://projecteuler.net/archives)
+- [페이징 예제](Chapter6/Source/pagenation.py)
 
 ## 부록: 개발 환경과 도구
 
