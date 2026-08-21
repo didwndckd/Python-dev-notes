@@ -17,7 +17,7 @@
 # 패키지 사용해보기(프롬프트)
 
 # 환경 변수 설정(프로젝트 루트에서 시작)
-# $ export PYTHONPATH=Chapter4/Source/packages
+# $ export PYTHONPATH=Chapter5/Source/packages
 # $ python3
 
 # echo 모듈 import

@@ -5,41 +5,41 @@
 
 ## 자료형
 
-- [숫자형(Number)](Chapter1/Numbers.md) — int, float, 진수 표현, 연산자
-- [문자열(String)](Chapter1/String.md) — 문자열 생성, 인덱싱/슬라이싱, 포매팅, 관련 함수
-- [리스트(List)](Chapter1/List.md) — 리스트 생성, 인덱싱/슬라이싱, 연산, 관련 함수
-- [튜플(Tuple)](Chapter1/Tuple.md) — 튜플 생성, 불변성, 인덱싱/슬라이싱, 연산
-- [딕셔너리(Dictionary)](Chapter1/Dictionary.md) — Key:Value 쌍, 추가/삭제, 관련 함수
-- [집합(Set)](Chapter1/Set.md) — 집합 생성, 중복 제거, 교집합/합집합/차집합, 관련 함수
-- [불(Bool)](Chapter1/Bool.md) — True/False, 자료형의 참과 거짓, 논리 연산자
-- [변수(Variable)](Chapter1/Variable.md) — 변수 선언, 명명 규칙, 객체 복사와 참조
+- [숫자형(Number)](Chapter2/Numbers.md) — int, float, 진수 표현, 연산자
+- [문자열(String)](Chapter2/String.md) — 문자열 생성, 인덱싱/슬라이싱, 포매팅, 관련 함수
+- [리스트(List)](Chapter2/List.md) — 리스트 생성, 인덱싱/슬라이싱, 연산, 관련 함수
+- [튜플(Tuple)](Chapter2/Tuple.md) — 튜플 생성, 불변성, 인덱싱/슬라이싱, 연산
+- [딕셔너리(Dictionary)](Chapter2/Dictionary.md) — Key:Value 쌍, 추가/삭제, 관련 함수
+- [집합(Set)](Chapter2/Set.md) — 집합 생성, 중복 제거, 교집합/합집합/차집합, 관련 함수
+- [불(Bool)](Chapter2/Bool.md) — True/False, 자료형의 참과 거짓, 논리 연산자
+- [변수(Variable)](Chapter2/Variable.md) — 변수 선언, 명명 규칙, 객체 복사와 참조
 
 ## 제어문
 
-- [조건문(if)](Chapter2/If.md) — if/elif/else, 들여쓰기, 조건부 표현식, match-case
-- [반복문(while)](Chapter2/While.md) — 기본 구조, break/continue, 무한 루프, while-else, 중첩
-- [반복문(for)](Chapter2/For.md) — 기본 구조, range, 리스트 컴프리헨션, enumerate, zip
+- [조건문(if)](Chapter3/If.md) — if/elif/else, 들여쓰기, 조건부 표현식, match-case
+- [반복문(while)](Chapter3/While.md) — 기본 구조, break/continue, 무한 루프, while-else, 중첩
+- [반복문(for)](Chapter3/For.md) — 기본 구조, range, 리스트 컴프리헨션, enumerate, zip
 
 ## 입출력
 
-- [함수(function)](Chapter3/Function.md) — def 구조, 매개변수/인수, \*args/\*\*kwargs, 반환값, scope, lambda
-- [사용자 입출력(input/print)](Chapter3/UserIO.md) — input, 형변환, print, sep/end 매개변수
-- [파일 읽고 쓰기(file I/O)](Chapter3/FileIO.md) — open, 파일 열기 모드, read/readline/readlines, with문, 인코딩
-- [프로그램의 입출력(sys.argv)](Chapter3/ProgramIO.md) — 명령행 인수, sys 모듈, argv
+- [함수(function)](Chapter4/Function.md) — def 구조, 매개변수/인수, \*args/\*\*kwargs, 반환값, scope, lambda
+- [사용자 입출력(input/print)](Chapter4/UserIO.md) — input, 형변환, print, sep/end 매개변수
+- [파일 읽고 쓰기(file I/O)](Chapter4/FileIO.md) — open, 파일 열기 모드, read/readline/readlines, with문, 인코딩
+- [프로그램의 입출력(sys.argv)](Chapter4/ProgramIO.md) — 명령행 인수, sys 모듈, argv
 
 ## 파이썬 날개 달기
 
-- [클래스(class)](Chapter4/Class.md) — 클래스와 객체, self, 객체변수, 생성자, 상속, 오버라이딩, 클래스 변수
-- [모듈(module)](Chapter4/Module.md) — import, from import, \_\_name\_\_, sys.path, PYTHONPATH
-- [패키지(package)](Chapter4/Package.md) — 패키지 구조, \_\_init\_\_.py, 패키지 초기화, \_\_all\_\_, 상대 경로 import, pyproject.toml
-- [예외 처리(exception)](Chapter4/HandleException.md) — try-except/finally/else, 오류 회피, raise, 예외 만들기
-- [내장 함수(built-in function)](Chapter4/BuiltInFunction.md) — abs, all/any, enumerate, filter, map, range, sorted, zip 등
-- [표준 라이브러리(standard library)](Chapter4/StandardLibrary.md) — datetime, time, math, random, itertools, os, threading, json, urllib 등
-- [외부 라이브러리(external library)](Chapter4/ExternalLibrary.md) — PyPI, pip, Faker, fractions.Fraction, sympy
+- [클래스(class)](Chapter5/Class.md) — 클래스와 객체, self, 객체변수, 생성자, 상속, 오버라이딩, 클래스 변수
+- [모듈(module)](Chapter5/Module.md) — import, from import, \_\_name\_\_, sys.path, PYTHONPATH
+- [패키지(package)](Chapter5/Package.md) — 패키지 구조, \_\_init\_\_.py, 패키지 초기화, \_\_all\_\_, 상대 경로 import, pyproject.toml
+- [예외 처리(exception)](Chapter5/HandleException.md) — try-except/finally/else, 오류 회피, raise, 예외 만들기
+- [내장 함수(built-in function)](Chapter5/BuiltInFunction.md) — abs, all/any, enumerate, filter, map, range, sorted, zip 등
+- [표준 라이브러리(standard library)](Chapter5/StandardLibrary.md) — datetime, time, math, random, itertools, os, threading, json, urllib 등
+- [외부 라이브러리(external library)](Chapter5/ExternalLibrary.md) — PyPI, pip, Faker, fractions.Fraction, sympy
 
 ## 파이썬 프로그래밍, 어떻게 시작해야 할까?
 
-- [구구단 예제](Chapter5/Source/gugu.py)
+- [구구단 예제](Chapter6/Source/gugu.py)
 
 ## 부록: 개발 환경과 도구
 

@@ -31,8 +31,8 @@ import sys
 args = sys.argv[:]   # 전체(프로그램 이름 포함)
 for i in args:
     print(i)
-# 실행: python3 Chapter3/Source/input_output/program_IO.py aaa bbb ccc
-# Chapter3/Source/input_output/program_IO.py   ← argv[0]: 해당 프로그램
+# 실행: python3 Chapter4/Source/input_output/program_IO.py aaa bbb ccc
+# Chapter4/Source/input_output/program_IO.py   ← argv[0]: 해당 프로그램
 # aaa                           ← argv[1]부터 전달 인수
 # bbb
 # ccc
@@ -52,7 +52,7 @@ import sys
 args = sys.argv[1:]   # 인수부터
 for i in args:
     print(i.upper(), end=' ')
-# 실행: python3 Chapter3/Source/input_output/program_IO.py life is too short, you need python
+# 실행: python3 Chapter4/Source/input_output/program_IO.py life is too short, you need python
 # LIFE IS TOO SHORT, YOU NEED PYTHON
 ```
 

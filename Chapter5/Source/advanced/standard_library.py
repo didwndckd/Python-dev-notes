@@ -207,16 +207,16 @@ import glob
 
 # glob(pathname): 디렉터리에 있는 파일들을 리스트로 만들기
 # Source 바로 아래의 .py만 반환, *는 /를 넘지 않으므로 하위 디렉터리는 포함되지 않는다.
-paths = glob.glob("Chapter1/Source/*.py")
-print(paths) # ['Chapter1/Source/bool.py', 'Chapter1/Source/dictionary.py', ...]
+paths = glob.glob("Chapter2/Source/*.py")
+print(paths) # ['Chapter2/Source/bool.py', 'Chapter2/Source/dictionary.py', ...]
 
 # Source 하위 디렉터리의 .py 반환
-paths = glob.glob("Chapter1/Source/*.py")
-print(paths) # ['Chapter1/Source/tuple.py', 'Chapter1/Source/list.py', ...]
+paths = glob.glob("Chapter2/Source/*.py")
+print(paths) # ['Chapter2/Source/tuple.py', 'Chapter2/Source/list.py', ...]
 
 # Source 아래 모든 깊이의 .py 반환
 paths = glob.glob("Chapter*/Source/**/*.py", recursive=True)
-print(paths) # ['Chapter1/Source/bool.py', 'Chapter4/Source/advanced/built_in_function.py', ...]
+print(paths) # ['Chapter2/Source/bool.py', 'Chapter5/Source/advanced/built_in_function.py', ...]
 
 # pickle: 객체의 형태를 그대로 유지하면서 파일에 저장하고 불러올 수 있게 하는 모듈
 import pickle
@@ -458,13 +458,13 @@ main()
 # 실행 결과
 # 오류가 발생했습니다.
 # Traceback (most recent call last):
-#   File "/Users/yjc/Workspace/Python-dev-notes/Chapter4/Source/advanced/standard_library.py", line 448, in main
+#   File "/Users/yjc/Workspace/Python-dev-notes/Chapter5/Source/advanced/standard_library.py", line 448, in main
 #     b()
 #     ~^^
-#   File "/Users/yjc/Workspace/Python-dev-notes/Chapter4/Source/advanced/standard_library.py", line 445, in b
+#   File "/Users/yjc/Workspace/Python-dev-notes/Chapter5/Source/advanced/standard_library.py", line 445, in b
 #     a()
 #     ~^^
-#   File "/Users/yjc/Workspace/Python-dev-notes/Chapter4/Source/advanced/standard_library.py", line 443, in a
+#   File "/Users/yjc/Workspace/Python-dev-notes/Chapter5/Source/advanced/standard_library.py", line 443, in a
 #     return 1/0
 #            ~^~
 # ZeroDivisionError: division by zero

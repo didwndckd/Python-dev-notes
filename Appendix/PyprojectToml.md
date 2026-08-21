@@ -1,6 +1,6 @@
 # pyproject.toml
 
-> 관련 문서: [패키지(package)](../Chapter4/Package.md), [가상 환경(venv)](VirtualEnvironment.md), [uv](Uv.md)
+> 관련 문서: [패키지(package)](../Chapter5/Package.md), [가상 환경(venv)](VirtualEnvironment.md), [uv](Uv.md)
 
 - [pyproject.toml이란](#pyprojecttoml이란)
 - [build-system](#build-system)
@@ -211,7 +211,7 @@ strict = true
 python3 -m pip install -e .
 ```
 
-이렇게 하면 어느 위치에서 실행하든 `import mypkg`가 동작하고, 코드를 고쳐도 다시 설치할 필요가 없다. `sys.path`나 `PYTHONPATH`를 건드리는 방법보다 안정적이라 실무에서 이 방식을 쓴다. 자세한 내용은 [패키지(package)](../Chapter4/Package.md) 문서에 있다.
+이렇게 하면 어느 위치에서 실행하든 `import mypkg`가 동작하고, 코드를 고쳐도 다시 설치할 필요가 없다. `sys.path`나 `PYTHONPATH`를 건드리는 방법보다 안정적이라 실무에서 이 방식을 쓴다. 자세한 내용은 [패키지(package)](../Chapter5/Package.md) 문서에 있다.
 
 > `-e` 없이 `pip install .`을 하면 그 시점의 코드가 복사되어 설치된다. 이후 코드를 고쳐도 반영되지 않는다.
 

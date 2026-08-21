@@ -28,7 +28,7 @@
 
 모든 라이브러리를 다 알 필요는 없다. **어떤 일을 할 때 어떤 라이브러리를 쓰면 되는지** 정도만 알아 두고, 필요할 때 찾아 쓰면 된다.
 
-> `sys` 모듈은 [프로그램의 입출력(sys.argv)](../Chapter3/ProgramIO.md)에서, `re` 모듈은 정규 표현식에서 따로 다룬다.
+> `sys` 모듈은 [프로그램의 입출력(sys.argv)](../Chapter4/ProgramIO.md)에서, `re` 모듈은 정규 표현식에서 따로 다룬다.
 
 ## datetime.date
 
@@ -372,18 +372,18 @@ import shutil
   import glob
   
   # Source 바로 아래의 .py만 반환, *는 /를 넘지 않으므로 하위 디렉터리는 포함되지 않는다
-  paths = glob.glob("Chapter1/Source/*.py")
-  print(paths)   # ['Chapter1/Source/bool.py', 'Chapter1/Source/dictionary.py', ...]
+  paths = glob.glob("Chapter2/Source/*.py")
+  print(paths)   # ['Chapter2/Source/bool.py', 'Chapter2/Source/dictionary.py', ...]
   
   # Source 하위 디렉터리의 .py 반환
-  paths = glob.glob("Chapter1/Source/*.py")
+  paths = glob.glob("Chapter2/Source/*.py")
   print(paths)
-  # ['Chapter1/Source/tuple.py', 'Chapter1/Source/list.py', ...]
+  # ['Chapter2/Source/tuple.py', 'Chapter2/Source/list.py', ...]
   
   # Source 아래 모든 깊이의 .py 반환
   paths = glob.glob("Chapter*/Source/**/*.py", recursive=True)
   print(paths)
-  # ['Chapter1/Source/bool.py', 'Chapter4/Source/advanced/built_in_function.py', ...]
+  # ['Chapter2/Source/bool.py', 'Chapter5/Source/advanced/built_in_function.py', ...]
   ```
 
 > 주의할 점 세 가지.
@@ -690,13 +690,13 @@ def main():
 main()
 # 오류가 발생했습니다.
 # Traceback (most recent call last):
-#   File ".../Chapter4/Source/advanced/standard_library.py", line 448, in main
+#   File ".../Chapter5/Source/advanced/standard_library.py", line 448, in main
 #     b()
 #     ~^^
-#   File ".../Chapter4/Source/advanced/standard_library.py", line 445, in b
+#   File ".../Chapter5/Source/advanced/standard_library.py", line 445, in b
 #     a()
 #     ~^^
-#   File ".../Chapter4/Source/advanced/standard_library.py", line 443, in a
+#   File ".../Chapter5/Source/advanced/standard_library.py", line 443, in a
 #     return 1/0
 #            ~^~
 # ZeroDivisionError: division by zero

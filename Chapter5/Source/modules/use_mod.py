@@ -54,15 +54,15 @@ print(result) # 16.966368000000003
 
 # sys.path.append 사용
 import sys
-print(sys.path) # ['/Users/yjc/Workspace/Python-dev-notes/Chapter4/Source/modules', ...]
-# sys.path.append("/Users/yjc/Workspace/Python-dev-notes/Chapter4/Source/modules/sub_modules") # sub_modules 디렉터리 추가
+print(sys.path) # ['/Users/yjc/Workspace/Python-dev-notes/Chapter5/Source/modules', ...]
+# sys.path.append("/Users/yjc/Workspace/Python-dev-notes/Chapter5/Source/modules/sub_modules") # sub_modules 디렉터리 추가
 
 # import mod3
 # mod3.call_module_name() # mod3: 호출 된다
 
 # PYTHONPATH 환경 변수 사용하기
 # $ export PYTHONPATH=모듈_경로
-# $ export PYTHONPATH=~/Workspace/Python-dev-notes/Chapter4/Source/modules/sub_modules
+# $ export PYTHONPATH=~/Workspace/Python-dev-notes/Chapter5/Source/modules/sub_modules
 # $ python3                                                                                                                                                                                                                                               ─╯
 # Python 3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)] on darwin
 # Type "help", "copyright", "credits" or "license" for more information.

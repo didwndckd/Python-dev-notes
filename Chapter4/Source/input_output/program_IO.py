@@ -8,11 +8,11 @@ import sys
 args = sys.argv[:]
 for i in args:
     print(i)
-# 실행: python3 Chapter3/Source/input_output/program_IO.py aaa bbb ccc
-# 0번(해당 프로그램): Chapter3/Source/input_output/program_IO.py
+# 실행: python3 Chapter4/Source/input_output/program_IO.py aaa bbb ccc
+# 0번(해당 프로그램): Chapter4/Source/input_output/program_IO.py
 # 1번~: 전달 인수
 # 실행결과
-# Chapter3/Source/input_output/program_IO.py
+# Chapter4/Source/input_output/program_IO.py
 # aaa
 # bbb
 # ccc

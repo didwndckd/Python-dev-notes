@@ -1,6 +1,6 @@
 # uv
 
-> 관련 문서: [가상 환경(venv)](VirtualEnvironment.md), [패키지(package)](../Chapter4/Package.md)
+> 관련 문서: [가상 환경(venv)](VirtualEnvironment.md), [패키지(package)](../Chapter5/Package.md)
 
 - [uv란](#uv란)
 - [설치](#설치)

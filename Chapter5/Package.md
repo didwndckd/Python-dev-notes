@@ -54,10 +54,10 @@ def render_test():
     print("render")
 ```
 
-패키지를 어디서든 import할 수 있도록 `game`의 **상위 디렉터리**를 `PYTHONPATH`에 추가하고 인터프리터를 실행한다. 여기서는 프로젝트 루트 기준으로 `Chapter4/Source/packages`가 그 위치다.
+패키지를 어디서든 import할 수 있도록 `game`의 **상위 디렉터리**를 `PYTHONPATH`에 추가하고 인터프리터를 실행한다. 여기서는 프로젝트 루트 기준으로 `Chapter5/Source/packages`가 그 위치다.
 
 ```bash
-$ export PYTHONPATH=Chapter4/Source/packages   # 윈도우는 set PYTHONPATH=...
+$ export PYTHONPATH=Chapter5/Source/packages   # 윈도우는 set PYTHONPATH=...
 $ python3
 >>>
 ```

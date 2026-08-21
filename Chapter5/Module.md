@@ -164,7 +164,7 @@ def call_module_name():
 ```python
 import sys
 print(sys.path)
-# ['/Users/yjc/Workspace/Python-dev-notes/Chapter4/Source/modules',
+# ['/Users/yjc/Workspace/Python-dev-notes/Chapter5/Source/modules',
 #  '.../python314.zip',
 #  '.../python3.14',
 #  '.../python3.14/lib-dynload',
@@ -177,7 +177,7 @@ print(sys.path)
 
   ```python
   import sys
-  sys.path.append("/Users/yjc/Workspace/Python-dev-notes/Chapter4/Source/modules/sub_modules")
+  sys.path.append("/Users/yjc/Workspace/Python-dev-notes/Chapter5/Source/modules/sub_modules")
 
   import mod3
   mod3.call_module_name()   # mod3: 호출된다
@@ -188,7 +188,7 @@ print(sys.path)
 - **PYTHONPATH 환경 변수 사용하기** — 셸에서 환경 변수로 경로를 지정하면 코드를 고치지 않아도 된다. 맥·리눅스는 `export`, 윈도우는 `set`을 쓴다.
 
   ```bash
-  $ export PYTHONPATH=~/Workspace/Python-dev-notes/Chapter4/Source/modules/sub_modules
+  $ export PYTHONPATH=~/Workspace/Python-dev-notes/Chapter5/Source/modules/sub_modules
   $ python3
   >>> import mod3
   >>> mod3.call_module_name()

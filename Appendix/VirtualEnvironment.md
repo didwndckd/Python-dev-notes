@@ -1,6 +1,6 @@
 # 가상 환경(venv)
 
-> 관련 예제 코드: [외부 라이브러리 예제](../Chapter4/Source/advanced/external_library.py)
+> 관련 예제 코드: [외부 라이브러리 예제](../Chapter5/Source/advanced/external_library.py)
 
 - [가상 환경이 필요한 이유](#가상-환경이-필요한-이유)
 - [가상 환경 만들기](#가상-환경-만들기)
@@ -89,7 +89,7 @@ which python3
 
 ```bash
 .venv/bin/python3 -m pip install Faker
-.venv/bin/python3 Chapter4/Source/advanced/external_library.py
+.venv/bin/python3 Chapter5/Source/advanced/external_library.py
 ```
 
 > CI 스크립트나 Dockerfile에서는 오히려 이 방식을 쓴다. 어떤 파이썬으로 실행되는지 명시적이라 실수가 없다.
