@@ -40,6 +40,8 @@
 ## 파이썬 프로그래밍, 어떻게 시작해야 할까?
 
 - [구구단 예제](Chapter6/Source/gugu.py)
+- [3과 5의 배수의 합](Chapter6/Source/sum_of_multiples.py)
+  - [Project Euler에서 문제 풀어보기](https://projecteuler.net/archives)
 
 ## 부록: 개발 환경과 도구
 
