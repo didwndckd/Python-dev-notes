@@ -37,6 +37,10 @@
 - [표준 라이브러리(standard library)](Chapter4/StandardLibrary.md) — datetime, time, math, random, itertools, os, threading, json, urllib 등
 - [외부 라이브러리(external library)](Chapter4/ExternalLibrary.md) — PyPI, pip, Faker, fractions.Fraction, sympy
 
+## 파이썬 프로그래밍, 어떻게 시작해야 할까?
+
+- [구구단 예제](Chapter5/Source/gugu.py)
+
 ## 부록: 개발 환경과 도구
 
 점프 투 파이썬에는 없는 내용으로, 파이썬 공식 문서와 각 도구의 공식 문서를 참고해 정리했다.
