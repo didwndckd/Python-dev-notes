@@ -45,6 +45,7 @@
 - [페이징 예제](Chapter6/Source/pagenation.py)
 - [메모장 예제](Chapter6/Source/memo.py)
 - [숫자 야구 예제](Chapter6/Source/baseball.py)
+- [시저 암호 예제](Chapter6/Source/caesar_cipher.py)
 
 ## 부록: 개발 환경과 도구
 
