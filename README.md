@@ -47,6 +47,10 @@
 - [숫자 야구 예제](Chapter6/Source/baseball.py)
 - [시저 암호 예제](Chapter6/Source/caesar_cipher.py)
 
+## 파이썬 날아오르기
+
+- [파이썬과 유니코드(unicode)](Chapter7/Unicode.md) — ASCII, 유니코드, UTF-8, 인코딩/디코딩, 파일 입출력
+
 ## 부록: 개발 환경과 도구
 
 점프 투 파이썬에는 없는 내용으로, 파이썬 공식 문서와 각 도구의 공식 문서를 참고해 정리했다.
