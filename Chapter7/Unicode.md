@@ -15,8 +15,8 @@
 컴퓨터는 숫자로 데이터를 처리하므로 문자를 다루려면 문자와 숫자를 대응시키는 문자 셋(character set)이 필요하다. 아스키(ASCII)는 영문 대소문자, 숫자, 특수문자 등을 포함한 128개 문자를 정의한 초기 표준 문자 셋이다.
 
 ```python
-print(ord('A'))   # 65
-print(chr(65))    # A
+ord('A')   # 65
+chr(65)    # A
 ```
 
 `ord()`는 문자에 대응하는 유니코드 코드 포인트를, `chr()`는 코드 포인트에 대응하는 문자를 반환한다. 아스키는 영어권 문자 표현에는 충분하지만 한글·한자 같은 문자는 표현할 수 없다.
@@ -29,7 +29,7 @@ print(chr(65))    # A
 
 ```python
 text = "Hello 안녕하세요 こんにちは 你好 😀"
-print(type(text))   # <class 'str'>
+type(text)   # <class 'str'>
 ```
 
 > 유니코드는 문자에 번호를 매기는 약속이고, 인코딩은 그 번호를 실제 바이트로 저장하는 방법이다.
@@ -47,8 +47,8 @@ print(type(text))   # <class 'str'>
 text = "Life is too short"
 encoded_text = text.encode('utf-8')
 
-print(encoded_text)         # b'Life is too short'
-print(type(encoded_text))   # <class 'bytes'>
+encoded_text                # b'Life is too short'
+type(encoded_text)          # <class 'bytes'>
 ```
 
 바이트 문자열 앞의 `b`는 `bytes` 타입임을 나타낸다.
@@ -60,8 +60,8 @@ print(type(encoded_text))   # <class 'bytes'>
 ```python
 korean_text = "한글"
 
-print(korean_text.encode('euc-kr'))   # b'\xc7\xd1\xb1\xdb'
-print(korean_text.encode('utf-8'))    # b'\xed\x95\x9c\xea\xb8\x80'
+korean_text.encode('euc-kr')   # b'\xc7\xd1\xb1\xdb'
+korean_text.encode('utf-8')    # b'\xed\x95\x9c\xea\xb8\x80'
 ```
 
 같은 문자열도 인코딩 방식에 따라 서로 다른 바이트열이 된다. `\x` 뒤의 두 자리는 한 바이트를 16진수로 표현한 값이다.
@@ -82,7 +82,7 @@ korean_text = "한글"
 encoded_korean_text = korean_text.encode('euc-kr')
 decoded_korean_text = encoded_korean_text.decode('euc-kr')
 
-print(decoded_korean_text)   # 한글
+decoded_korean_text   # 한글
 ```
 
 ```python
@@ -108,7 +108,7 @@ with open(euc_kr_path, 'w', encoding='euc-kr') as f:
 
 with open(euc_kr_path, encoding='euc-kr') as f:
     data = f.read()
-    print(data)   # test
+data   # test
 
 data += "\n" + "test line 2"
 
@@ -117,9 +117,9 @@ with open(euc_kr_path, 'a', encoding='euc-kr') as f:
 
 with open(euc_kr_path, encoding='euc-kr') as f:
     data = f.read()
-    print(data)
-    # testtest
-    # test line 2
+data
+# testtest
+# test line 2
 ```
 
 `'a'` 모드는 파일 끝에 내용을 덧붙인다. 기존 내용을 수정해서 다시 저장하려면 `'w'` 모드를 사용한다.

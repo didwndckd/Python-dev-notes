@@ -18,11 +18,11 @@ a = [1, 2, 3]
 # next(a)   # TypeError: 'list' object is not an iterator
 
 ia = iter(a)                  # 반복 가능 객체를 이터레이터로 변환
-print(type(ia))                # <class 'list_iterator'>
-print(next(ia))                # 1
-print(next(ia))                # 2
-print(next(ia))                # 3
-# print(next(ia))              # StopIteration
+type(ia)                       # <class 'list_iterator'>
+next(ia)                       # 1
+next(ia)                       # 2
+next(ia)                       # 3
+# next(ia)                     # StopIteration
 ```
 
 `for` 문은 내부적으로 `next()` 호출과 `StopIteration` 처리를 자동으로 수행한다.
@@ -120,11 +120,11 @@ def mygen():
     yield 'c'
 
 g = mygen()
-print(type(g))   # <class 'generator'>
-print(next(g))   # a
-print(next(g))   # b
-print(next(g))   # c
-# print(next(g)) # StopIteration
+type(g)           # <class 'generator'>
+next(g)           # a
+next(g)           # b
+next(g)           # c
+# next(g)         # StopIteration
 ```
 
 > 제너레이터 객체는 함수를 호출하는 즉시 모든 코드를 실행하지 않는다. `next()`나 `for` 문으로 값을 요청할 때마다 다음 `yield`까지 실행한다.
@@ -140,14 +140,14 @@ def mygen():
         yield result
 
 gen = mygen()
-print(next(gen))  # 1
-print(next(gen))  # 4
-print(next(gen))  # 9
+next(gen)  # 1
+next(gen)  # 4
+next(gen)  # 9
 
 gen = (i * i for i in range(1, 1000))
-print(next(gen))  # 1
-print(next(gen))  # 4
-print(next(gen))  # 9
+next(gen)  # 1
+next(gen)  # 4
+next(gen)  # 9
 ```
 
 ## 클래스 이터레이터와 제너레이터
@@ -187,13 +187,13 @@ def longtime_job():
     return "done"
 
 list_job = [longtime_job() for i in range(5)]
-print(list_job[0])
+first_result = list_job[0]
 # job start  # 5번 출력
 # ...
 # done        # 첫 번째 결과만 필요해도 약 5초 기다림
 
 gen_job = (longtime_job() for i in range(5))
-print(next(gen_job))
+first_result = next(gen_job)
 # job start
 # done        # 첫 번째 작업만 실행하므로 약 1초
 ```

@@ -32,7 +32,7 @@ tax = 0.1
 def price_with_tax(price):
     return price * (1 + tax)
 
-print(price_with_tax(10000))   # 11000.0
+price_with_tax(10000)   # 11000.0
 ```
 
 클로저는 이미 실행이 끝난 외부 함수의 **지역 변수**를 내부 함수가 계속 사용한다는 점이 다르다.
@@ -44,7 +44,7 @@ def make_multiplier(m):
     return multiply
 
 mul3 = make_multiplier(3)   # make_multiplier()는 여기서 종료
-print(mul3(10))              # 30, multiply()는 m을 계속 사용
+mul3(10)                     # 30, multiply()는 m을 계속 사용
 ```
 
 > 클로저가 유지하는 것은 값의 단순한 복사본이라기보다 외부 지역 변수의 바인딩이다. 따라서 `nonlocal`을 사용하면 내부 함수에서 그 변수를 변경하며 상태를 유지할 수도 있다.
@@ -94,11 +94,11 @@ class Mul:
 mul_3 = Mul(3)
 mul_5 = Mul(5)
 
-print(mul_3.mul(10))   # 30
-print(mul_5.mul(10))   # 50
+mul_3.mul(10)   # 30
+mul_5.mul(10)   # 50
 
-print(mul_3(10))       # 30
-print(mul_5(10))       # 50
+mul_3(10)       # 30
+mul_5(10)       # 50
 ```
 
 > `__call__`은 객체 뒤에 괄호를 붙여 호출했을 때 실행되는 특수 메서드이다. 따라서 `mul_3(10)`은 `mul_3.__call__(10)`과 같이 동작한다.
@@ -113,11 +113,9 @@ def mul(m):
         return m * n
     return wrapper
 
-mul3_result = mul(3)(10)
-print(mul3_result)   # 30
+mul3_result = mul(3)(10)   # 30
 
-mul5_result = mul(5)(10)
-print(mul5_result)   # 50
+mul5_result = mul(5)(10)   # 50
 ```
 
 `mul()`처럼 클로저를 만들어 반환하는 함수를 클로저 팩토리 함수라고 한다. 호출할 때마다 각각의 외부 변수 값을 기억하는 새 클로저가 만들어진다.
