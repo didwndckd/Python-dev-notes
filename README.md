@@ -50,6 +50,7 @@
 ## 파이썬 날아오르기
 
 - [파이썬과 유니코드(unicode)](Chapter7/Unicode.md) — ASCII, 유니코드, UTF-8, 인코딩/디코딩, 파일 입출력
+- [클로저와 데코레이터(closure/decorator)](Chapter7/Closure.md) — 클로저, \_\_call\_\_, 데코레이터, @, \*args, \*\*kwargs
 
 ## 부록: 개발 환경과 도구
 
