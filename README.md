@@ -51,6 +51,7 @@
 
 - [파이썬과 유니코드(unicode)](Chapter7/Unicode.md) — ASCII, 유니코드, UTF-8, 인코딩/디코딩, 파일 입출력
 - [클로저와 데코레이터(closure/decorator)](Chapter7/Closure.md) — 클로저, \_\_call\_\_, 데코레이터, @, \*args, \*\*kwargs
+- [이터레이터와 제너레이터(iterator/generator)](Chapter7/IteratorGenerator.md) — iterable, iter/next, StopIteration, yield, 제너레이터 표현식, lazy evaluation
 
 ## 부록: 개발 환경과 도구
 
