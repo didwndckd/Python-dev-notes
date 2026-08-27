@@ -57,6 +57,7 @@
 ## 정규표현식
 
 - [정규 표현식 살펴보기](Chapter8/RegularExpression.md) — 문자열 패턴, re, compile, sub, 그룹 참조
+- [정규 표현식 시작하기](Chapter8/RegularExpressionStart.md) — 메타 문자, 검색 메서드, 컴파일 옵션, 역슬래시
 
 ## 부록: 개발 환경과 도구
 

@@ -48,7 +48,7 @@ class ResidentIdMarker:
 
 marker = ResidentIdMarker()
 result = marker.excute(data)
-print(result)
+result
 # park 800905-*******
 # kim  700905-*******
 ```
@@ -80,7 +80,7 @@ kim  700905-1059119
 
 pat = re.compile(r"(\d{6})-\d{7}")
 result = pat.sub(r"\g<1>-*******", data)
-print(result)
+result
 # park 800905-*******
 # kim  700905-*******
 ```
