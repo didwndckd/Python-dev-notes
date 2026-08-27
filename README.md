@@ -54,6 +54,10 @@
 - [이터레이터와 제너레이터(iterator/generator)](Chapter7/IteratorGenerator.md) — iterable, iter/next, StopIteration, yield, 제너레이터 표현식, lazy evaluation
 - [파이썬 타입 어노테이션(type annotation)](Chapter7/TypeAnnotation.md) — 동적/정적 타입, 변수·함수 어노테이션, typing, mypy
 
+## 정규표현식
+
+- [정규 표현식 살펴보기](Chapter8/RegularExpression.md) — 문자열 패턴, re, compile, sub, 그룹 참조
+
 ## 부록: 개발 환경과 도구
 
 점프 투 파이썬에는 없는 내용으로, 파이썬 공식 문서와 각 도구의 공식 문서를 참고해 정리했다.
